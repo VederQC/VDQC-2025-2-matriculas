@@ -1,7 +1,5 @@
 spring:
   application:
     name: vdqc-cursos
-  profiles:
-    active: default
   config:
     import: optional:configserver:http://root:123456@localhost:7070
